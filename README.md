@@ -1,0 +1,105 @@
+# Frontend Framework Showdown 2020
+
+Originally done by [CodingGarden ↗](https://github.com/CodingGarden/frontend-framework-showdown-2020).
+
+It is recreated here for me to learn more about frontend frameworks.
+
+---
+
+## The App - An Image Search App built with:
+
+- Vanilla JS
+- React.js + hooks
+- Angular 9
+- Vue.js + Composition API
+- Svelte
+
+---
+
+## In Scope
+
+### Each app will demonstrate the following concepts:
+Setup / CLI Tools
+User Input
+DOM Events
+Conditional Rendering
+API Requests
+Rendering Lists of Data
+
+## Out of Scope
+
+### Will revisit these in a future showdown:
+
+Pagination
+Testing
+Routing
+Global State Management
+SCSS / CSS Modules
+
+---
+
+## API
+
+All apps will use fetch unless the framework has something built in.
+
+All apps will contact the Nature Image Search API:
+
+https://nature-image-api.now.sh/search?q=
+
+View the source code here: https://github.com/CodingGarden/nature-image-api
+
+---
+
+## Structure
+
+All apps will use the following HTML:
+
+```html
+<h1>Image Search</h1>
+<form>
+  <label for="searchTerm">Search Term</label>
+  <input class="u-full-width" type="text" id="searchTerm" name="searchTerm">
+  <button type="submit">Search</button>
+</form>
+<img id="loadingImage" src="https://i.imgur.com/LVHmLnb.gif">
+<section class="images">
+<!-- images loaded dynamically here -->
+</section>
+```
+
+## Styles
+
+All apps will use the skeleton CSS framework:
+
+```html
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+```
+
+And use these styles:
+
+```css
+body {
+  width: 80%;
+  margin: 2em auto 0 auto;
+}
+
+.images {
+  column-count: 3;
+}
+
+img {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .images {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 800px) {
+  .images {
+    column-count: 1;
+  }
+}
+```
