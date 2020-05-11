@@ -4,7 +4,7 @@ Originally done by [CodingGarden ↗](https://github.com/CodingGarden/frontend-f
 
 It is recreated here for me to learn more about frontend frameworks.
 
----
+
 
 ## The App - An Image Search App built with:
 
@@ -14,7 +14,7 @@ It is recreated here for me to learn more about frontend frameworks.
 - Vue.js + Composition API
 - Svelte
 
----
+
 
 ## In Scope
 
@@ -36,7 +36,7 @@ Routing
 Global State Management
 SCSS / CSS Modules
 
----
+
 
 ## API
 
@@ -48,7 +48,7 @@ https://nature-image-api.now.sh/search?q=
 
 View the source code here: https://github.com/CodingGarden/nature-image-api
 
----
+
 
 ## Structure
 
