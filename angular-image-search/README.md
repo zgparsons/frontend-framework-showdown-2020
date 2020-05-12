@@ -1,6 +1,6 @@
 # TODO
 
-* [] Setup
+* [x] Setup
 * [] User Input, DOM Events
     * [] Retrieve the search term from the input when the form is submitted
 * [] Conditional Rendering
