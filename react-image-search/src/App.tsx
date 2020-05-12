@@ -22,7 +22,7 @@ const onSearchTermChanged = (event: React.ChangeEvent<HTMLInputElement>): void =
 
   return (
       <React.Fragment>
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <form onSubmit={formSubmitted}>
             <label htmlFor="searchTerm">Search Term</label>
             <input value={searchTerm} onChange={onSearchTermChanged} className="u-full-width" type="text" id="searchTerm" name="searchTerm" />

@@ -22,3 +22,10 @@ body {
       column-count: 1;
     }
   }
+
+  .intro {
+    width: 80%;
+    margin: auto;
+    background-color: #EEE;
+    text-align: center;
+  }

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "react-image-search",
+  "builds": [
+    {
+      "src": "*",
+      "use": "@now/static"
+    }
+  ],
+  "alias": [
+    "react-image-search-zp"
+  ]
+}
