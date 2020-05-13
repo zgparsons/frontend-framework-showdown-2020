@@ -5,11 +5,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ImageSearchComponent } from './image-search/image-search.component';
+import { IntroSectionComponent } from './intro-section/intro-section.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ImageSearchComponent
+    ImageSearchComponent,
+    IntroSectionComponent
   ],
   imports: [
     BrowserModule,
