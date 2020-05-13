@@ -16,5 +16,7 @@
     "url": "https://github.com/zgparsons/frontend-framework-showdown-2020/issues"
   },
   "homepage": "https://github.com/zgparsons/frontend-framework-showdown-2020#readme",
-  "dependencies": {}
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
